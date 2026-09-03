@@ -182,6 +182,16 @@ p {
   background: #eaf4fb;
   border-left-color: #2e78bd;
 }
+@media (min-width: 901px) {
+  .main-nav:has(.nav-menu[open] + .nav-menu[open]) {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .main-nav:has(.nav-menu[open] + .nav-menu[open]) .nav-menu[open] .dropdown-panel {
+    position: static;
+    margin-top: 2px;
+  }
+}
 
 /* Main rows, links, cards, and images. */
 .page-section {
@@ -584,9 +594,6 @@ p {
     top: calc(100% + 2px);
     right: auto;
     left: 0;
-  }
-  .nav-menu {
-    z-index: 1;
   }
   .hero-row,
   .split-row,
