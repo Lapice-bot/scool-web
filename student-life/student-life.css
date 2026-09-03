@@ -166,6 +166,7 @@ p {
   position: absolute;
   top: calc(100% - 8px);
   right: -16px;
+  z-index: 30;
   display: grid;
   gap: 8px;
   min-width: 220px;
@@ -513,8 +514,9 @@ p {
   .main-nav {
     width: 100%;
     justify-content: flex-start;
+    flex-wrap: wrap;
     gap: 24px;
-    overflow-x: auto;
+    overflow: visible;
     padding-bottom: 2px;
   }
   .main-nav > a,
@@ -529,6 +531,9 @@ p {
     top: calc(100% + 2px);
     right: auto;
     left: 0;
+  }
+  .nav-menu {
+    z-index: 1;
   }
   .hero-row,
   .split-row,
