@@ -1,307 +1,220 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Campus news, announcements, and event calendar for St. Mary's College of Meycauayan."
-    />
-    <title>News &amp; Events | St. Mary's College of Meycauayan</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./news-events.css" />
-  </head>
 
-  <body>
-    <!-- Blueprint Campus: standalone news and events page with semantic HTML and CSS-only navigation. -->
-    <!-- Site header -->
-    <header class="site-header" id="top">
-      <div class="header-inner">
-        <a
-          class="brand"
-          href="../index.html"
-          aria-label="St. Mary's College of Meycauayan home"
-          ><span class="logo-box" aria-label="Logo image"
-            ><img
-              src="../images/smcm-logo.png"
-              alt="St. Mary's College logo" /></span
-          ><span class="brand-copy"
-            ><strong>St. Mary's College</strong
-            ><small>of Meycauayan</small></span
-          ></a
-        >
-        <!-- Main navigation -->
-        <nav class="main-nav" aria-label="Primary navigation">
-          <a href="../index.html">Home</a
-          ><a href="../about/about.html">About School</a>
-          <details class="nav-menu">
-            <summary>Admission <span aria-hidden="true">⌄</span></summary>
-            <div class="dropdown-panel">
-              <a href="../admission-requirements/admission-requirements.html"
-                >Admission Requirements</a
-              ><a href="../enrollment-process/enrollment-process.html"
-                >Enrollment Process</a
-              >
-            </div>
-          </details>
-          <details class="nav-menu">
-            <summary>Academics <span aria-hidden="true">⌄</span></summary>
-            <div class="dropdown-panel">
-              <a href="../academic/academic.html">Academic</a
-              ><a href="../academic-policies/academic-policies.html"
-                >Academic Policies</a
-              >
-            </div>
-          </details>
-          <a href="../student-life/student-life.html">Student Life</a
-          ><a href="./news-events.html">News &amp; Events</a
-          ><a href="../index.html#contact">Contact Us</a>
-        </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Campus news, announcements, and event calendar for St. Mary's College of Meycauayan." />
+  <title>News &amp; Events | St. Mary's College of Meycauayan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./news-events.css" />
+</head>
+
+<body>
+  <!-- Site header -->
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="../index.html" aria-label="St. Mary's College of Meycauayan home"><span class="logo-box"
+          aria-label="Logo image"><img src="../images/smcm-logo.png" alt="St. Mary's College logo" /></span><span
+          class="brand-copy"><strong>St. Mary's College</strong><small>of Meycauayan, Inc.</small></span></a>
+      <!-- Main navigation -->
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="../index.html">Home</a><a href="../about/about.html">About School</a>
+        <details class="nav-menu">
+          <summary>Admission <span aria-hidden="true">⌄</span></summary>
+          <div class="dropdown-panel">
+            <a href="../admission-requirements/admission-requirements.html">Admission Requirements</a><a
+              href="../enrollment-process/enrollment-process.html">Enrollment Process</a>
+          </div>
+        </details>
+        <details class="nav-menu">
+          <summary>Academics <span aria-hidden="true">⌄</span></summary>
+          <div class="dropdown-panel">
+            <a href="../academic/academic.html">Academic</a><a
+              href="../academic-policies/academic-policies.html">Academic Policies</a>
+          </div>
+        </details>
+        <a href="../student-life/student-life.html">Student Life</a><a href="./news-events.html">News &amp; Events</a><a
+          href="../index.html#contact">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+  <!-- Main page content -->
+  <main>
+    <!-- Page section -->
+    <section class="page-section" aria-labelledby="news-events-title">
+      <div class="blurry-hero news-hero">
+        <img class="hero-image" src="./images/news-and-events-hero.jpg" alt="" aria-hidden="true" />
+        <h1 id="news-events-title">News and Events</h1>
       </div>
-    </header>
-    <!-- Main page content -->
-    <main>
       <!-- Page section -->
-      <section class="page-section" aria-labelledby="news-events-title">
-        <div class="blurry-hero news-hero">
-          <img
-            class="hero-image"
-            src="./images/news-and-events-hero.jpg"
-            alt=""
-            aria-hidden="true"
-          />
-          <h1 id="news-events-title">News and Events</h1>
+      <section class="section-block" id="news-campus" aria-labelledby="campus-news-title">
+        <div class="container">
+          <div class="section-heading centered">
+            <p class="eyebrow">Stories from our community</p>
+            <h2 id="campus-news-title">Campus News</h2>
+          </div>
+          <div class="card-grid three-up editorial-grid">
+            <article>
+              <div class="picture-box news-picture">
+                <img class="content-image" src="./images/news-1.jpg" alt="Campus news image 1" />
+              </div>
+              <p class="card-kicker">Marian Outreach</p>
+              <h3>Thank You, Bradley Delarmente</h3>
+              <p>
+                We sincerely thank Bradley Delarmente of Grade 5 St. Thomas
+                for donating essential goods to communities affected by the
+                recent habagat and for sharing compassion and hope.
+              </p>
+            </article>
+            <article>
+              <div class="picture-box news-picture">
+                <img class="content-image" src="./images/news-3.jpg" alt="Campus news image 2" />
+              </div>
+              <p class="card-kicker">Sports Achievement</p>
+              <h3>Elementary Boys’ Volleyball — Champions</h3>
+              <p>
+                SMCM Elementary Boys Volleyball Team clinched the championship
+                through teamwork, determination, and fighting spirit,
+                advancing to the City Meet 2026.
+              </p>
+            </article>
+            <article>
+              <div class="picture-box news-picture">
+                <img class="content-image" src="./images/news-2.jpg" alt="Campus news image 3" />
+              </div>
+              <p class="card-kicker">Marian Outreach</p>
+              <h3>Thank You, Our Generous Donors</h3>
+              <p>
+                We sincerely thank our generous donors for providing essential
+                goods to communities affected by the recent habagat and for
+                sharing compassion, hope, and support.
+              </p>
+            </article>
+          </div>
         </div>
-        <!-- Page section -->
-        <section
-          class="section-block"
-          id="news-campus"
-          aria-labelledby="campus-news-title"
-        >
-          <div class="container">
-            <div class="section-heading centered">
-              <p class="eyebrow">Stories from our community</p>
-              <h2 id="campus-news-title">Campus News</h2>
-            </div>
-            <div class="card-grid three-up editorial-grid">
-              <article>
-                <div class="picture-box news-picture">
-                  <img
-                    class="content-image"
-                    src="./images/news-1.jpg"
-                    alt="Campus news image 1"
-                  />
-                </div>
-                <p class="card-kicker">Marian Outreach</p>
-                <h3>Thank You, Bradley Delarmente</h3>
-                <p>
-                  We sincerely thank Bradley Delarmente of Grade 5 St. Thomas
-                  for donating essential goods to communities affected by the
-                  recent habagat and for sharing compassion and hope.
-                </p>
-              </article>
-              <article>
-                <div class="picture-box news-picture">
-                  <img
-                    class="content-image"
-                    src="./images/news-3.jpg"
-                    alt="Campus news image 2"
-                  />
-                </div>
-                <p class="card-kicker">Sports Achievement</p>
-                <h3>Elementary Boys’ Volleyball — Champions</h3>
-                <p>
-                  SMCM Elementary Boys Volleyball Team clinched the championship
-                  through teamwork, determination, and fighting spirit,
-                  advancing to the City Meet 2026.
-                </p>
-              </article>
-              <article>
-                <div class="picture-box news-picture">
-                  <img
-                    class="content-image"
-                    src="./images/news-2.jpg"
-                    alt="Campus news image 3"
-                  />
-                </div>
-                <p class="card-kicker">Marian Outreach</p>
-                <h3>Thank You, Our Generous Donors</h3>
-                <p>
-                  We sincerely thank our generous donors for providing essential
-                  goods to communities affected by the recent habagat and for
-                  sharing compassion, hope, and support.
-                </p>
-              </article>
-            </div>
-          </div>
-        </section>
-        <!-- Page section -->
-        <section
-          class="section-band"
-          id="news-announcements"
-          aria-labelledby="announcement-title"
-        >
-          <div class="container">
-            <div class="section-heading centered">
-              <p class="eyebrow">Important information</p>
-              <h2 id="announcement-title">Announcement</h2>
-            </div>
-            <div class="card-grid three-up">
-              <article class="image-card">
-                <div class="picture-box card-picture">
-                  <img
-                    class="content-image"
-                    src="./images/day-3.jpg"
-                    alt="Announcement image 1"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3>Notice of Online Classes</h3>
-                  <p>
-                    All classes will be conducted online on August 20, 2026, due
-                    to prevailing weather conditions. Students are advised to
-                    stay safe and monitor the official school page for updates.
-                  </p>
-                  <a
-                    class="text-link"
-                    href="https://www.facebook.com/OfficialSMCMeycauayan/posts/pfbid0z2biS6Pq5pgjw3zjJQJq285QFmRVbjCsdctQT4GaMAKbfjARpq56ZohowbctVM75l?rdid=pAeIyK7h8vqkYTrr#" target="blank"
-                    >Read more <span aria-hidden="true">→</span></a
-                  >
-                </div>
-              </article>
-              <article class="image-card">
-                <div class="picture-box card-picture">
-                  <img
-                    class="content-image"
-                    src="./images/day-2.jpg"
-                    alt="Announcement image 2"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3>Cancellation of Online Classes</h3>
-                  <p>
-                    Online classes for all levels are cancelled on August 19,
-                    2026, due to severe weather and flooding in Meycauayan and
-                    nearby areas.
-                  </p>
-                  <a
-                    class="text-link"
-                    href="https://www.facebook.com/OfficialSMCMeycauayan/posts/pfbid0MKskoh6oJZkwm7fs1CWKoY2xQZC1tn19KUDka5i49F1Hzq1jr1cVeZv8HqGjWm4rl?rdid=IJnuC28lSF8ppskw#" target="blank"
-                    >Read more <span aria-hidden="true">→</span></a
-                  >
-                </div>
-              </article>
-              <article class="image-card">
-                <div class="picture-box card-picture">
-                  <img
-                    class="content-image"
-                    src="./images/day-1.jpg"
-                    alt="Announcement image 3"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3>Notice of Online Classes</h3>
-                  <p>
-                    Description: All classes will be conducted online on August
-                    18, 2026, due to the Southwest Monsoon.
-                  </p>
-                  <a
-                    class="text-link"
-                    href="https://www.facebook.com/OfficialSMCMeycauayan/posts/pfbid0M61HkicKZeJksFiu2QKPnmmaHKtXbGvg4UF5KqE2UzPYoGjmNEsXePL4fCLjBSBwl?rdid=5PS5O5xviS2S7VYS#" target="blank"
-                    >Read more <span aria-hidden="true">→</span></a
-                  >
-                </div>
-              </article>
-            </div>
-          </div>
-        </section>
-        <!-- Page section -->
-        <section
-          class="section-block"
-          id="news-calendar"
-          aria-labelledby="calendar-title"
-        >
-          <div class="container">
-            <div class="section-heading centered">
-              <p class="eyebrow">IGNACIAN MARIAN VALUES</p>
-              <h2 id="calendar-title">Marian Outreach</h2>
-            </div>
-            <div class="card-grid three-up">
-              <article class="image-card">
-                <div class="picture-box card-picture">
-                  <img
-                    class="content-image"
-                    src="./images/outreach.jpg"
-                    alt="Event calendar image 1"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3>Marian Outreach</h3>
-                  <p>
-                    As part of its 110th Foundation Anniversary, SMCM donated
-                    goods to three foundations on March 14, 2026. The outreach
-                    encouraged the school community to share blessings and
-                    spread kindness, compassion, and hope.
-                  </p>
-                  <a
-                    class="text-link"
-                    href="https://www.facebook.com/share/p/19AisPMTXm/" target="blank"
-                    >Read more <span aria-hidden="true">→</span></a
-                  >
-                </div>
-              </article>
-              <article class="image-card">
-                <div class="picture-box card-picture">
-                  <img
-                    class="content-image"
-                    src="./images/paglaom.jpg"
-                    alt="Event calendar image 2"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3>Paglaom</h3>
-                  <p>
-                    Your generosity helps ease the burden of our brothers and
-                    sisters at Jubilee Homes while keeping the Ignacian-Marian
-                    spirit alive.
-                  </p>
-                  <a
-                    class="text-link"
-                    href="https://www.facebook.com/share/p/1EbfonPo3X/" target="blank"
-                    >Read more <span aria-hidden="true">→</span></a
-                  >
-                </div>
-              </article>
-              <article class="image-card">
-                <div class="picture-box card-picture">
-                  <img
-                    class="content-image"
-                    src="./images/bayanihan.jpg"
-                    alt="Event calendar image 3"
-                  />
-                </div>
-                <div class="card-body">
-                  <h3>Ignacian Marian Bayanihan</h3>
-                  <p>
-                    The first batch of donations was turned over to the RVM
-                    Social Ministry for typhoon victims in Batangas.
-                  </p>
-                  <a
-                    class="text-link"
-                    href="https://www.facebook.com/share/p/1QEbVhFtcv/" target="blank"
-                    >Read more <span aria-hidden="true">→</span></a
-                  >
-                </div>
-              </article>
-            </div>
-          </div>
-        </section>
       </section>
-    </main>
-  </body>
+      <!-- Page section -->
+      <section class="section-band" id="news-announcements" aria-labelledby="announcement-title">
+        <div class="container">
+          <div class="section-heading centered">
+            <p class="eyebrow">Important information</p>
+            <h2 id="announcement-title">Announcement</h2>
+          </div>
+          <div class="card-grid three-up">
+            <article class="image-card">
+              <div class="picture-box card-picture">
+                <img class="content-image" src="./images/day-3.jpg" alt="Announcement image 1" />
+              </div>
+              <div class="card-body">
+                <h3>Notice of Online Classes</h3>
+                <p>
+                  All classes will be conducted online on August 20, 2026, due
+                  to prevailing weather conditions. Students are advised to
+                  stay safe and monitor the official school page for updates.
+                </p>
+                <a class="text-link"
+                  href="https://www.facebook.com/OfficialSMCMeycauayan/posts/pfbid0z2biS6Pq5pgjw3zjJQJq285QFmRVbjCsdctQT4GaMAKbfjARpq56ZohowbctVM75l?rdid=pAeIyK7h8vqkYTrr#"
+                  target="blank">Read more <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+            <article class="image-card">
+              <div class="picture-box card-picture">
+                <img class="content-image" src="./images/day-2.jpg" alt="Announcement image 2" />
+              </div>
+              <div class="card-body">
+                <h3>Cancellation of Online Classes</h3>
+                <p>
+                  Online classes for all levels are cancelled on August 19,
+                  2026, due to severe weather and flooding in Meycauayan and
+                  nearby areas.
+                </p>
+                <a class="text-link"
+                  href="https://www.facebook.com/OfficialSMCMeycauayan/posts/pfbid0MKskoh6oJZkwm7fs1CWKoY2xQZC1tn19KUDka5i49F1Hzq1jr1cVeZv8HqGjWm4rl?rdid=IJnuC28lSF8ppskw#"
+                  target="blank">Read more <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+            <article class="image-card">
+              <div class="picture-box card-picture">
+                <img class="content-image" src="./images/day-1.jpg" alt="Announcement image 3" />
+              </div>
+              <div class="card-body">
+                <h3>Notice of Online Classes</h3>
+                <p>
+                  Description: All classes will be conducted online on August
+                  18, 2026, due to the Southwest Monsoon.
+                </p>
+                <a class="text-link"
+                  href="https://www.facebook.com/OfficialSMCMeycauayan/posts/pfbid0M61HkicKZeJksFiu2QKPnmmaHKtXbGvg4UF5KqE2UzPYoGjmNEsXePL4fCLjBSBwl?rdid=5PS5O5xviS2S7VYS#"
+                  target="blank">Read more <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- Page section -->
+      <section class="section-block" id="news-calendar" aria-labelledby="calendar-title">
+        <div class="container">
+          <div class="section-heading centered">
+            <p class="eyebrow">IGNACIAN MARIAN VALUES</p>
+            <h2 id="calendar-title">Marian Outreach</h2>
+          </div>
+          <div class="card-grid three-up">
+            <article class="image-card">
+              <div class="picture-box card-picture">
+                <img class="content-image" src="./images/outreach.jpg" alt="Event calendar image 1" />
+              </div>
+              <div class="card-body">
+                <h3>Marian Outreach</h3>
+                <p>
+                  As part of its 110th Foundation Anniversary, SMCM donated
+                  goods to three foundations on March 14, 2026. The outreach
+                  encouraged the school community to share blessings and
+                  spread kindness, compassion, and hope.
+                </p>
+                <a class="text-link" href="https://www.facebook.com/share/p/19AisPMTXm/" target="blank">Read more <span
+                    aria-hidden="true">→</span></a>
+              </div>
+            </article>
+            <article class="image-card">
+              <div class="picture-box card-picture">
+                <img class="content-image" src="./images/paglaom.jpg" alt="Event calendar image 2" />
+              </div>
+              <div class="card-body">
+                <h3>Paglaom</h3>
+                <p>
+                  Your generosity helps ease the burden of our brothers and
+                  sisters at Jubilee Homes while keeping the Ignacian-Marian
+                  spirit alive.
+                </p>
+                <a class="text-link" href="https://www.facebook.com/share/p/1EbfonPo3X/" target="blank">Read more <span
+                    aria-hidden="true">→</span></a>
+              </div>
+            </article>
+            <article class="image-card">
+              <div class="picture-box card-picture">
+                <img class="content-image" src="./images/bayanihan.jpg" alt="Event calendar image 3" />
+              </div>
+              <div class="card-body">
+                <h3>Ignacian Marian Bayanihan</h3>
+                <p>
+                  The first batch of donations was turned over to the RVM
+                  Social Ministry for typhoon victims in Batangas.
+                </p>
+                <a class="text-link" href="https://www.facebook.com/share/p/1QEbVhFtcv/" target="blank">Read more <span
+                    aria-hidden="true">→</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+</body>
+
 </html>
